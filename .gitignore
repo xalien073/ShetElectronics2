@@ -1,0 +1,10 @@
+node_modules
+*.log
+src/assets/icons
+.browserslistrc
+# README.md
+# babel.config.js
+# package.json
+# vue.config.js
+yarn.lock
+

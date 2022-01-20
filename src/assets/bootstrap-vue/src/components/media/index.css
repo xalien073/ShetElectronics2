@@ -1,0 +1,12 @@
+.media-aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.media-aside-right {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=index.css.map */

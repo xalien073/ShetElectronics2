@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dark-theme {
+  color: #f8f9fa !important;
+  background-color: #34340a !important;
+}
+
+.dark-theme a {
+  color: #f8f9fa !important;
+}
+
+.dark-theme a:hover {
+  color: gold;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+body {
+  font-family: FontAwesome;
+  color: #000009 !important;
+  background-color: #ecf0f3 !important;
+  min-height: 100vh;
+  margin-top: 8rem;
+}
+
+body a:hover {
+  color: gold;
+}
+
+body #app a, body #modal a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=global.css.map */
