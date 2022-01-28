@@ -51,6 +51,8 @@ export default {
       position: relative; 
   
   img {
+  background-color: $img-bg;
+  padding: 0 30%;
   width: 100%;
   height: 100%;
   border-radius: 2rem;

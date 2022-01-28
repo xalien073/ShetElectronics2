@@ -165,7 +165,7 @@ export default {
         }
       }
     })
-    console.log('updated...',this.CartIndex)
+    // console.log('updated...',this.CartIndex)
   },
   methods: {
     GetProduct() {

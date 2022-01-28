@@ -451,5 +451,15 @@
         transform: rotateX(360deg);
       }
     }
+     @media (max-width: 998px) {
+        height: 25vw;
+        width: 45vw;
+
+       @keyframes far-truck {
+      to {transform:  
+      translateX(30vw) rotateY(90deg)
+      translateY(-20vw);}
+    }
+      }
   }
 </style>

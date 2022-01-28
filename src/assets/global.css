@@ -50,4 +50,13 @@ body a:hover {
 body #app a, body #modal a {
   text-decoration: none;
 }
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+div, button, strong, i, p, span, input, textarea {
+  font-size: 1.6rem;
+}  
 /*# sourceMappingURL=global.css.map */

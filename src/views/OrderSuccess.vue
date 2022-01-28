@@ -3,8 +3,8 @@
   <div class="row m-0 order-success">
     <div class="col-12 text-center">
       <button @click="play">play</button>
-      <h2>Thank you for placing order on Shet.com!</h2>
-      <h3>
+      <h1>Thank you for placing order on Shet.com!</h1>
+      <h2>
         Your order Id is: {{ OrderId }},
         <router-link
           :to="{ name: 'Orders' }"
@@ -13,7 +13,7 @@
           here</router-link
         >
         to check Order Status.
-      </h3>
+      </h2>
     </div>
     <DeliveryTruck />
   </div>
@@ -42,16 +42,15 @@ body {
 #app {display: none;}
 .order-success {
    height: 100vh;
-    width: 100%;
     background-repeat: no-repeat;
     background-image: url('../assets/hw.jpg');
     background-size: cover;
-    .col-12 {
-      color: blueviolet; 
-      transform: translateY(-20vh) scale(0.5);
-      animation: drop 5s 10s linear forwards 1;
+    // background: #000;
+    h1, h2 {
+      transform: translateY(-20vh) scale(0);
+      animation: drop 5s 10s ease-out forwards 1;
       @keyframes drop {
-        to {transform: translateY(50vh) scale(1.5);} 
+        to {transform: translateY(50vh) scale(1);} 
       }
     }
   .btn {
@@ -67,6 +66,9 @@ body {
         content: "Tap";
       }
     }
+  }
+  @media (max-width: 998px) {
+    background-size: 100% 100%;
   }
 }
 </style>
